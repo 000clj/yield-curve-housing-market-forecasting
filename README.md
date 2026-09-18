@@ -14,7 +14,7 @@ This project investigates whether latent factors extracted from the U.S. Treasur
 
 Five regression models of increasing complexity, from a naive intercept-only benchmark up to a full model combining both yield curve factors with an AR(1) term, are estimated in-sample and then evaluated out-of-sample using a recursive expanding-window forecasting scheme. Forecast accuracy is compared using Mean Square Forecast Error (MSFE) and formally tested for statistical significance using the Diebold-Mariano test.
 
-**Key finding:** the AR(1) benchmark produces the lowest out-of-sample forecast error across all three targets, with the advantage statistically significant for housing starts and home prices. This is consistent with the efficient markets hypothesis: yield curve information appears to already be priced in by the time it would otherwise be useful for prediction.
+**Key finding:** The AR(1) benchmark produces the lowest out-of-sample forecast error across all three targets, with the advantage statistically significant for housing starts and home prices. The results suggest that the Nelson-Siegel yield-curve factors provide limited incremental out-of-sample predictive information beyond the historical behavior of the target variables, consistent with an interpretation based on efficient incorporation of available market information. 
 
 ## Methodology
 
